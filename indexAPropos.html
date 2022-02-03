@@ -1,0 +1,52 @@
+<!doctype htlm>
+<html lang="fr">
+        <head>
+        <meta charset="utf-8">
+        <title>Waryx-A Propos</title>
+        <link rel="stylesheet" href="css/cssAPropos.css">
+        <video id="background-video" autoplay loop muted>
+            <source src="css/image-vidéo/Vidéo.mp4" type="video/mp4">
+            </video>
+        </head>
+
+        <br>			<CENTER> <h1> A Propos </h1> </CENTER> 
+
+<h4> <u> Pour me contacter :</u></h4>
+<p> Email : waryx@free.fr </p>
+
+<h4> <u> Système de connexion non fonctionnel :</u> </h4>
+
+<p>     <fieldset>
+            <legend><h5>Identification</h5></legend>
+        <form method="post" action="traitement.php">
+        <label for="pseudo">Votre pseudo : </label>
+        <br><input type="text" name="pseudo" id="pseudo"/> 
+        <br>
+        <label for="pass">Votre mot de passe :</label>
+        <br><input type="password" name="pass" id="pass" />
+    </fieldset>
+                    
+</p></form>
+            
+        <form method="post" action="traitement.php">
+             
+        <fieldset>
+                <legend><h5>Coordonnées</h5></legend> 
+             
+        <label for="nom">Quel est votre nom ?</label>
+        <br><input type="text" name="nom" id="nom" required placeholder="DUPONT"/>
+        <br>
+        <label for="prenom">Quel est votre prénom ?</label>
+        <br><input type="text" name="text" id="text" required placeholder="Jean"/>
+        <br>
+        <label for="date">Quel est ta date de naissance ?</label>
+        <br><form method="post" action="traitement.php">
+        <input type="date"/>
+       <br>
+        <label for="email">Quel est votre e-mail ?</label>
+        <br><input type="email" name="email" id="email" required placeholder="jeandupont@email.com" />
+ <br><br>   <input type="submit" value="Envoyé le formulaire" />
+ <br> Si tu clique, tu crash XD
+        </fieldset>
+        </form>
+</Div></p>
