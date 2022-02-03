@@ -1,18 +1,13 @@
 p{
     font-size: 25px;
+    font-size: large ;
 }
 
-a {
-    color: black;
+fieldset{
+    border: 2px black solid;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px;
 }
-
-a:hover {
-    color:red
-}
-
-.marge { 
-    margin:40px;
-    }
 
 img{
     width: 24%;
@@ -27,7 +22,7 @@ img{
 }
 h1  {
     font-family: 'Word2025.woff';
-    font-size: 50;
+    font-size: 70;
 }
 
 @font-face {
